@@ -1,0 +1,231 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:background="@drawable/setbar_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/calulator_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right" />
+
+        <TextView
+            android:id="@+id/calulator_view_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/calulator_keyboard_frist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dip"
+        android:layout_weight="5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/calulator_keyboard_clear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setwrite_line"
+            android:text="@string/clear" />
+
+        <Button
+            android:id="@+id/calulator_keyboard_del"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setwrite_line"
+            android:text="@string/del" />
+
+        <Button
+            android:id="@+id/calulator_keyboard_multiply"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setwrite_line"
+            android:text="@string/multiply" />
+
+        <Button
+            android:id="@+id/calulator_keyboard_divide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setwrite_line"
+            android:text="@string/divide" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/calulator_keyboard_second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dip"
+        android:layout_weight="5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/calulator_keyboard_seven"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setwrite_line"
+            android:text="@string/seven" />
+
+        <Button
+            android:id="@+id/calulator_keyboard_eight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setwrite_line"
+            android:text="@string/eight" />
+
+        <Button
+            android:id="@+id/calulator_keyboard_nine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setwrite_line"
+            android:text="@string/nine" />
+
+        <Button
+            android:id="@+id/calulator_keyboard_sub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setwrite_line"
+            android:text="@string/sub" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/calulator_keyboard_third"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dip"
+        android:layout_weight="5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/calulator_keyboard_four"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setwrite_line"
+            android:text="@string/four" />
+
+        <Button
+            android:id="@+id/calulator_keyboard_five"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setwrite_line"
+            android:text="@string/five" />
+
+        <Button
+            android:id="@+id/calulator_keyboard_six"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setwrite_line"
+            android:text="@string/six" />
+
+        <Button
+            android:id="@+id/calulator_keyboard_add"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setwrite_line"
+            android:text="@string/add" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/calulator_keyboard_fourth"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dip"
+        android:layout_weight="4"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/calulator_keyboard_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/setwrite_line"
+                    android:text="@string/one" />
+
+                <Button
+                    android:id="@+id/calulator_keyboard_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/setwrite_line"
+                    android:text="@string/two" />
+
+                <Button
+                    android:id="@+id/calulator_keyboard_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/setwrite_line"
+                    android:text="@string/three" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dip"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/calulator_keyboard_zero"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/setwrite_line"
+                    android:text="@string/zero" />
+
+                <Button
+                    android:id="@+id/calulator_keyboard_point"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/setwrite_line"
+                    android:text="@string/point" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/calulator_keyboard_equal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/setwrite_line"
+            android:text="@string/equal" />
+    </LinearLayout>
+
+</LinearLayout>
